@@ -42,7 +42,7 @@ export default function Home() {
     <>
       <Navbar fluid style={{position: 'fixed', top: 0, left: 0, width: '100%', backgroundColor: 'rgb(128, 192, 128)'}}>
         <Navbar.Brand>
-          <span className="self-center whitespace-nowrap text-xl font-semibold text-white" style={{ textShadow: '#000000 2px 2px 2px' }}>Adrian Martinez's Portfolio</span>
+          <span className="self-center whitespace-nowrap text-xl font-semibold text-white" style={{ textShadow: '#000000 2px 2px 2px' }}>Adrian Martinez</span>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
