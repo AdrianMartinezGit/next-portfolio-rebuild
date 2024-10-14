@@ -57,7 +57,7 @@ export default function Home() {
         <h1 className="font-[Source-Code-Pro] text-white text-8xl font-semibold text-center mt-32 tracking-tighter" style={{ textShadow: '#000000 4px 4px 2px' }}>Adrian Martinez</h1>
         <p className="font-[Source-Code-Pro] text-white text-2xl font-lightbold text-center mt-3 tracking-tighter" style={{ textShadow: '#000000 1px 1px 1px' }}>{`Aspiring Web Developer based in Antioch, California`}</p>
       
-        <div className="px-60 py-20" id="about-me">
+        <div className="px-60 pt-20" id="about-me">
           <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <div className="grid grid-flow-col">
               <Image src={aboutImage} alt="About Me" className="w-96 rounded-md" />
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="px-48" id="my-skills">
+        <div className="px-48 pt-20" id="my-skills">
           <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <div className="grid grid-flow-col">
               <div className="pl-10">
@@ -186,7 +186,7 @@ export default function Home() {
         </div>
 
         <div className="px-24 py-20" id="my-projects">
-          <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
+          <div className="bg-green-200 w-auto h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <h1 className="text-black text-6xl font-semibold text-center font-[Source-Code-Pro] pb-10">{`My Projects`}</h1>
             <hr style={{borderColor: 'black', marginTop: 0, marginBottom: 30}}/>
             <div className="grid grid-flow-col">
@@ -202,7 +202,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
+              {/*
               <div className="flex justify-center">
                 <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectPokeImage} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
@@ -214,7 +214,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
+              */}
               <div className="flex justify-center">
                 <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectA41Image} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
@@ -373,6 +373,7 @@ export default function Home() {
                 </div>
               </div>
               
+              {/* 
               <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
                 <Image src={projectPokeImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top" />
                 <div className="p-2">
@@ -382,7 +383,7 @@ export default function Home() {
                   <button className="bg-red-800 text-white rounded-xl text-xl w-full h-8 mt-2 font-[Source-Code-Pro]"><a href="https://github.com/AdrianMartinezGit/react-pokemon-rebuild">View Source Code</a></button>
                 </div>
               </div>
-
+              */}
               <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
                 <Image src={projectA41Image} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top" />
                 <div className="p-2">
