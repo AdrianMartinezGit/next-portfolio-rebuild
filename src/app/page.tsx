@@ -202,19 +202,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*
-              <div className="flex justify-center">
-                <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
-                  <Image src={projectPokeImage} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
-                  <div className="p-5">
-                    <h1 className="text-2xl text-black font-semibold font-[Source-Code-Pro]">{'Search that Pokémon! (Developer)'}</h1>
-                    <p className="text-sm text-black font-normal mt-5 font-[Source-Code-Pro]">{`This project allows the user to search for any pokemon, and display their abilities and other info.`}<br /><br />{`This was made to improve my skills with fetching and navigating through a larger API, and using more high-order functions.`}</p>
-                    <button className="bg-blue-500 text-white rounded-xl text-3xl w-full h-12 mt-5"><a href="https://react-pokemon-rebuild.vercel.app/">Go to Website</a></button>
-                    <button className="bg-red-800 text-white rounded-xl text-3xl w-full h-12 mt-5"><a href="https://github.com/AdrianMartinezGit/react-pokemon-rebuild">View Source Code</a></button>
-                  </div>
-                </div>
-              </div>
-              */}
               <div className="flex justify-center">
                 <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectA41Image} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
@@ -372,18 +359,6 @@ export default function Home() {
                   <button className="bg-red-800 text-white rounded-xl text-xl w-full h-8 mt-2 font-[Source-Code-Pro]"><a href="https://github.com/ItzTeeler/mocktalks/tree/Adrian's-Branch">View Source Code</a></button>
                 </div>
               </div>
-              
-              {/* 
-              <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
-                <Image src={projectPokeImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top" />
-                <div className="p-2">
-                  <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Search that Pokémon! (Developer)'}</h1>
-                  <p className="text-sm text-black font-normal mt-5 font-[Source-Code-Pro] text-center">{`This project allows the user to search for any pokemon, and display their abilities and other info.`}<br /><br />{`This was made to improve my skills with fetching and navigating through a larger API, and using more high-order functions.`}</p>
-                  <button className="bg-blue-500 text-white rounded-xl text-xl w-full h-8 mt-4 font-[Source-Code-Pro]"><a href="https://react-pokemon-rebuild.vercel.app/">Go to Website</a></button>
-                  <button className="bg-red-800 text-white rounded-xl text-xl w-full h-8 mt-2 font-[Source-Code-Pro]"><a href="https://github.com/AdrianMartinezGit/react-pokemon-rebuild">View Source Code</a></button>
-                </div>
-              </div>
-              */}
               <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
                 <Image src={projectA41Image} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top" />
                 <div className="p-2">
